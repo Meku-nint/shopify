@@ -1,11 +1,8 @@
 'use client';
-
 import { useEffect, useState, use } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
-import ContactSellerForm from '@/app/components/ContactSellerForm';
-
 type Listing = {
   id: string;
   Brand: string;
@@ -201,9 +198,7 @@ export default function ListingDetail({ params }: { params: Promise<{ id: string
                 )}
               </div>
             </div>
-            
-            <ContactSellerForm listing={listing} />
-          </div>
+            </div>
         </div>
       </div>
     </div>
