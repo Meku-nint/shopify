@@ -3,7 +3,7 @@
 Shopify is the client-side web application of our Computer Market App, designed to make buying and selling computers simple, fast, and visually appealing.
 Built with Next.js and Supabase, it provides a smooth user experience for browsing listings, viewing details, and connecting buyers with sellers.
 
-🚀 Features
+ Features
 
 🛒 Browse Listings: View a wide range of computer listings with detailed specifications.
 
@@ -11,7 +11,7 @@ Built with Next.js and Supabase, it provides a smooth user experience for browsi
 
 💾 Dynamic Data Fetching: Data is pulled from Supabase in real-time.
 
-🖼️ Optimized Image Loading: Images are handled through Next.js’s image optimization.
+ Optimized Image Loading: Images are handled through Next.js’s image optimization.
 
 📱 Responsive Design: Works perfectly on desktops, tablets, and mobile devices.
 
