@@ -60,7 +60,7 @@ const handleSeeRoute = () => {
     },
     {
       name: "Email",
-      username: "support@royalsmart.com",
+      username: "royalsmart.com",
       icon: "fa-solid fa-envelope",
       url: "mailto:support@royalsmart.com",
       color: "hover:text-red-400",
@@ -82,12 +82,12 @@ const handleSeeRoute = () => {
   ]);
   
   return (
-    <footer className="w-full bg-gradient-to-br from-slate-900 to-slate-800 border-t border-slate-700/50 text-slate-200">
-      <div className="mx-auto max-w-4xl px-6 py-12">
+    <footer className="w-full bg-black border-slate-700/50 text-slate-200">
+      <div className="mx-auto max-w-4xl px-6 pt-12">
         <div className="text-center mb-8">
           <div className="flex items-center justify-center gap-3 mb-4">
             
-            <h3 className="text-2xl font-light bg-gradient-to-r from-white to-slate-300 bg-clip-text text-transparent">
+            <h3 className="text-2xl font-light bg-gradient-to-r pt-6 from-white to-slate-300 bg-clip-text text-transparent">
               Royal Smart Computer
             </h3>
           </div>
@@ -95,7 +95,7 @@ const handleSeeRoute = () => {
             Connect with us through your favorite platform.
           </p>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mb-8">
+        <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-4 mb-8">
           <button
               onClick={() => {
                 handleSeeRoute();
@@ -113,7 +113,7 @@ const handleSeeRoute = () => {
               rel="noopener noreferrer"
               className={`group bg-slate-800/30 rounded-2xl p-4 text-center border border-slate-700/50 transition-all duration-300 hover:bg-slate-700/50 hover:scale-105 hover:shadow-lg ${link.color}`}
             >
-              <div className="flex flex-col items-center gap-2">
+              <div className="flex flex-col items-center gap-1">
                 <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-slate-700/50 group-hover:bg-slate-600/50 transition-all duration-300">
                   <i
                     className={`${link.icon} text-xl text-slate-300 group-hover:scale-110 transition-transform duration-300`}
@@ -129,11 +129,11 @@ const handleSeeRoute = () => {
             </a>
           ))}
         </div>
-        <div className="border-t border-slate-700/50 pt-6 mt-8">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-slate-400">
+        <div className="border-t border-slate-700/50">
+          <div className="flex flex-col md:flex-row items-center justify-between pt-6 -pb-2 text-sm text-slate-400">
             <div className="flex items-center gap-2">
               <i className="fa-regular fa-copyright text-xs" />
-              <span>{year} Royal Smart Computer. All rights reserved.</span>
+              <span className="text-gray-400 mb-2 text-center font-mono ">{year} Royal Smart Computer. All rights reserved.</span>
             </div>
 
 
